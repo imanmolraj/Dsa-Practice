@@ -17,6 +17,8 @@ public:
                 count[char_ind]--;
             }
         }
+
+        //remaining character left in s
         for(int i=0;i<26;i++)
         {
             while(count[i])
